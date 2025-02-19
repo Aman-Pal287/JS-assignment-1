@@ -23,3 +23,15 @@
 //     prompt(). If the sum of both numbers is even, print “Even Sum”;
 //     otherwise, print “Odd Sum.”
 
+const firstNum = Number(prompt("Enter First number"));
+const secondNum = Number(prompt("Enter Second Number"));
+const sum =Number(firstNum + secondNum);
+const mod = sum % 2;
+console.log(`sum is : ${sum}`)
+console.log(`mod is : ${mod}`)
+if(mod == 0){
+    console.log("The sum is even");
+}
+else{
+    console.log("The sum is odd");
+}
