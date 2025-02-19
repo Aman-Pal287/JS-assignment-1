@@ -35,3 +35,23 @@
 // else{
 //     console.log("The sum is odd");
 // }
+
+
+// Q3. Character Case Checker – Ask the user for a single character.
+//     Check if it's uppercase, lowercase, or neither (not a letter).
+
+
+
+const character = prompt("Enter your Character");
+
+function checkCase(character) {
+    if (character === character.toUpperCase()) {
+        return 'Uppercase';
+    } else if (character === character.toLowerCase()) {
+        return 'Lowercase';
+    } else {
+        return 'Mixed case';
+    }
+}
+
+console.log(checkCase(character)); // Correct function call
