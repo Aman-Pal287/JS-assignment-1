@@ -42,16 +42,57 @@
 
 
 
-const character = prompt("Enter your Character");
+// const character = prompt("Enter your Character");
 
-function checkCase(character) {
-    if (character === character.toUpperCase()) {
-        return 'Uppercase';
-    } else if (character === character.toLowerCase()) {
-        return 'Lowercase';
-    } else {
-        return 'Mixed case';
+// function checkCase(character) {
+//     if (character === character.toUpperCase()) {
+//         return 'Uppercase';
+//     } else if (character === character.toLowerCase()) {
+//         return 'Lowercase';
+//     } else {
+//         return 'Mixed case';
+//     }
+// }
+
+// console.log(checkCase(character)); // Correct function call
+
+
+// Q4. Largest of Three Numbers – Take three numbers as input and
+//     print the largest number among them without using
+//     Math.max().
+
+// const num1 = Number(prompt("Enter first number"));
+// const num2 = Number(prompt("Enter second number"));
+// const num3 = Number(prompt("Enter third number"));
+
+// if(num1>num2){
+//     if(num1>num3){
+//         console.log("First number is the greatest number")
+//     }
+//     else{
+//         console.log("Third number is the greatest number")
+//     }
+// }
+// else{
+//     if(num2>num3){
+//         console.log("Second number is the greatest number")
+//     }
+// }
+
+// Q5. Leap Year Checker – Ask the user for a year and determine if
+//     it's a leap year or not.
+
+let userInputYear = Number(prompt("Enter any year and i will check its leap year or not"));
+
+if (userInputYear % 4 === 0) {
+    if (userInputYear % 100 !== 0) {
+        console.log("You entered a leap year");
+    }
+    else {
+        console.log("Your entered year is not a leap year");
     }
 }
+else {
+    console.log("Your entered year is not a leap year");
 
-console.log(checkCase(character)); // Correct function call
+}
