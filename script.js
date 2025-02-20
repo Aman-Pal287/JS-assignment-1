@@ -120,3 +120,23 @@
 // else if(operator == "%"){
 //     console.log(`your reminder is : ${num1%num2}`);    
 // }
+
+
+
+// Q7. Positive, Negative, or Zero – Take a number input and check if it
+//     is positive, negative, or zero.
+
+// let userInputNumber = Number(prompt("Enter A Number"))
+
+// if(userInputNumber>0 ){
+//     console.log("The number is positive")
+// }
+// else if(userInputNumber === 0){
+//     console.log("the number is zero");    
+// }
+// else if(userInputNumber < 0){
+//     console.log("the number is negative");    
+// }
+// else{
+//     console.log("chutiya hai kya bhai");    
+// }
