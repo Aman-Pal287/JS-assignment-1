@@ -18,7 +18,7 @@ Q5. Leap Year Checker – Ask the user for a year and determine if
     it's a leap year or not.
 
 Q6. Simple Calculator – Ask the user for two numbers and an
-    operator (+, -, \*, /). Perform the operation and display the result.
+    operator (+, -, *, /). Perform the operation and display the result.
 
 Q7. Positive, Negative, or Zero – Take a number input and check if it
     is positive, negative, or zero.

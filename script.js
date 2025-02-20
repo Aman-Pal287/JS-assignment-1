@@ -82,17 +82,41 @@
 // Q5. Leap Year Checker – Ask the user for a year and determine if
 //     it's a leap year or not.
 
-let userInputYear = Number(prompt("Enter any year and i will check its leap year or not"));
+// let userInputYear = Number(prompt("Enter any year and i will check its leap year or not"));
 
-if (userInputYear % 4 === 0) {
-    if (userInputYear % 100 !== 0) {
-        console.log("You entered a leap year");
-    }
-    else {
-        console.log("Your entered year is not a leap year");
-    }
-}
-else {
-    console.log("Your entered year is not a leap year");
+// if (userInputYear % 4 === 0) {
+//     if (userInputYear % 100 !== 0) {
+//         console.log("You entered a leap year");
+//     }
+//     else {
+//         console.log("Your entered year is not a leap year");
+//     }
+// }
+// else {
+//     console.log("Your entered year is not a leap year");
 
-}
+// }
+
+// Q6. Simple Calculator – Ask the user for two numbers and an
+//     operator (+, -, *, /). Perform the operation and display the result.
+
+// let num1 = Number(prompt("Enter First number"))
+// let num2 = Number(prompt("Enter second number"))
+// let operator = prompt("Enter operator + or - or * or / or %")
+
+// if(operator == "+"){
+//     console.log(`your sum is : ${num1+num2}`)
+// }
+// else if(operator == "-"){
+//     console.log(`your subtraction is : ${num1-num2}`);
+    
+// }
+// else if(operator == "*"){
+//     console.log(`your multiplication is : ${num1*num2}`);    
+// }
+// else if(operator == "/"){
+//     console.log(`your division is : ${num1/num2}`);    
+// }
+// else if(operator == "%"){
+//     console.log(`your reminder is : ${num1%num2}`);    
+// }
