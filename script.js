@@ -177,3 +177,22 @@
 // else{
 //     console.log(`Good night bkl , ${userName}`)    
 // }
+
+
+// Q9. Traffic Light System – Ask the user for a traffic light color (red,
+//     yellow, green). Print appropriate messages:
+//     Red: "Stop!"
+//     Yellow: "Get Ready!"
+//     Green: "Go!"
+
+// let userInput = prompt("Enter color of your signal")
+
+// if(userInput == "red"){
+//     console.log("RED : Stop!")
+// }
+// else if(userInput == "yellow"){
+//     console.log("YELLOW : Get Ready!")
+// }
+// else if(userInput == "green"){
+//     console.log("GREEN : Jaao bho**walo!")
+// }
