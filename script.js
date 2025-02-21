@@ -140,3 +140,40 @@
 // else{
 //     console.log("chutiya hai kya bhai");    
 // }
+
+
+// Q8. User Greeting – Ask for the user's name and time (24-hour
+// format). Greet them accordingly:
+// "5 AM–12 PM: "Good Morning, [Name]!"
+// "12 PM–5 PM: "Good Afternoon, [Name]!"
+// "5 PM–9 PM: "Good Evening, [Name]!"
+// "9 PM–5 AM: "Good Night, [Name]!"
+// ;
+
+// let userName = prompt("Enter Your Name")
+// let time = Number(prompt("Enter Your Current time hours index(24 HOURS FORMAT)"))
+
+// if(time >= 5){
+//     if(time < 12){
+//        console.log(`Good Morning , ${userName}`);
+//     }
+//     else if(time > 12){
+//         if(time <= 17){
+//             console.log(`Good afternoon , ${userName}`)
+//         }
+//         else if(time > 17){
+//             if(time <= 21){
+//                 console.log(`Good Evening , ${userName}`)
+//             }
+//             else if(time > 21){
+//                 if(time <= 24){
+//                     console.log(`Good Night , ${userName}`)
+//                 }
+//             }
+//         }
+        
+//     }
+// }
+// else{
+//     console.log(`Good night bkl , ${userName}`)    
+// }
